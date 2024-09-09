@@ -4,7 +4,7 @@
       {
         "#class": "System.Route",
         "name": "raxon-org-cli-middleware",
-        "path": "raxon_org\/middleware",
+        "path": "raxon\/middleware",
         "controller": "Package:Raxon:Middleware:Controller:Cli:run",
         "priority": 1001,
         "request": {
