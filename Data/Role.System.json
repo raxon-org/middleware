@@ -1,0 +1,95 @@
+{
+  "name": "ROLE_SYSTEM",
+  "rank": 1,
+  "#class": "Account.Role",
+  "permission": [
+    {
+      "name": "System:Middleware:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:delete.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:page",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:page.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:list",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:list.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Middleware:rename",
+      "#class": "Account.Permission"
+    }
+  ]
+}
