@@ -1,5 +1,5 @@
 {{R3M}}
-{{$register = Package.Raxon.Org.Middleware:Init:register()}}
+{{$register = Package.Raxon.Middleware:Init:register()}}
 {{if(!is.empty($register))}}
-{{Package.Raxon.Org.Middleware:Import:role.system()}}
+{{Package.Raxon.Middleware:Import:role.system()}}
 {{/if}}
