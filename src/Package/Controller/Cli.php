@@ -22,8 +22,7 @@ class Cli extends Controller {
     const DIR = __DIR__ . '/';
     const MODULE_INFO = 'Info';
     const INFO = [
-        '{{binary()}} raxon/middleware              | Middleware options',
-        '{{binary()}} raxon/middleware setup        | Middleware setup',
+        '{{binary()}} raxon/middleware              | Middleware options',        
         '{{binary()}} raxon/middleware update       | Middleware update',
     ];
 
